@@ -44,9 +44,18 @@ drawSnake();
 
 // Move the snake horizontally
 function advanceSnake() {
-    const head = {x: snake[0].x + dx, y: snake[0].y};
+    const head = {x: snake[0].x + dx, y: snake[0].y + dy};
     snake.unshift(head);
     snake.pop();
 }
 
-// Move the snake vertically
+// Move on step to the right
+advanceSnake();
+
+// Change vertical velocity to 0
+dx = 0;
+// Change horizontal velocity to 10
+dy = -10;
+
+// Move one step up
+advanceSnake();
