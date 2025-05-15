@@ -42,9 +42,11 @@ function drawSnake() {
 
 drawSnake();
 
-// Update the snake
+// Move the snake horizontally
 function advanceSnake() {
     const head = {x: snake[0].x + dx, y: snake[0].y};
     snake.unshift(head);
     snake.pop();
 }
+
+// Move the snake vertically
