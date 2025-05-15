@@ -41,3 +41,10 @@ function drawSnake() {
 }
 
 drawSnake();
+
+// Update the snake
+function advanceSnake() {
+    const head = {x: snake[0].x + dx, y: snake[0].y};
+    snake.unshift(head);
+    snake.pop();
+}
