@@ -1,22 +1,9 @@
 /** CONSTANTS **/
-const CANVAS_BORDER_COLOUR = 'black';
-const CANVAS_BACKGROUND_COLOUR = 'white';
-
 // Get the canvas element
 var gameCanvas = document.getElementById('gameCanvas');
 
 // Return a two-dimensional drawing context
 var ctx = gameCanvas.getContext('2d');
-
-// Select the color to fill the canvas
-ctx.fillStyle = CANVAS_BACKGROUND_COLOUR;
-// Select the color to fill with border of the canvas
-ctx.strokeStyle = CANVAS_BORDER_COLOUR;
-
-// Draw a "filled" rectangle to cover the entire canvas
-ctx.fillRect(0, 0, gameCanvas.width, gameCanvas.height);
-// Draw a "border" around the entire canvas
-ctx.strokeRect(0, 0, gameCanvas.width, gameCanvas.height);
 
 // Snake representing
 let snake = [
@@ -27,7 +14,15 @@ let snake = [
     {x: 110, y: 150},
 ];
 
-// Creating and drawing snake
+// Horizontal velocity
+let dx = 10;
+// Vertical velocity
+let dy = 0;
+
+/**
+ * Draws a part of the snake on the canvas
+ * @param { object } snakePart - The coordinates where the part should be drawn
+ */
 function drawSnakePart(snakePart) {
     ctx.fillStyle = 'lightgreen';
     ctx.strokeStyle = 'darkgreen';
@@ -36,26 +31,46 @@ function drawSnakePart(snakePart) {
     ctx.strokeRect(snakePart.x, snakePart.y, 10, 10);
 }
 
+/**
+ * Draws the snake on the canvas
+ */
 function drawSnake() {
     snake.forEach(drawSnakePart);
 }
 
-drawSnake();
 
-// Move the snake horizontally
+/**
+ * Advances the snake by changing the x-coordinates of its parts
+ * according to the horizontal velocity and the y-coordinates of its parts
+ * according to the vertical velocity
+ */
 function advanceSnake() {
     const head = {x: snake[0].x + dx, y: snake[0].y + dy};
     snake.unshift(head);
     snake.pop();
 }
 
-// Move on step to the right
-advanceSnake();
+/**
+ * draw canvas inside a function
+ */
+function clearCanvas() {
+    ctx.fillStyle = "white";
+    ctx.strokeStyle = "black";
 
-// Change vertical velocity to 0
-dx = 0;
-// Change horizontal velocity to 10
-dy = -10;
+    ctx.fillRect(0, 0, gameCanvas.width, gameCanvas.height);
+    ctx.strokeStyle(0, 0, gameCanvas.width, gameCanvas.height);
+}
 
-// Move one step up
-advanceSnake();
+/**
+ * set timeout to the move of snake
+ */
+function main() {
+    setTimeout(function onTick() {
+        clearCanvas();
+        advanceSnake();
+        drawSnake();
+
+        // Call main again
+        main();
+    }, 100)
+}
