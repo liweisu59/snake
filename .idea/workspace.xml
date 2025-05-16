@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="629fb605-3c12-451a-9319-ae4d42cc11b4" name="Changes" comment="Add score display to snake game UI&#10;&#10;Introduced a score heading and placeholder to the game interface. This sets up the foundation for displaying and updating the player's score dynamically in future updates.">
+      <change afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/snake.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;liweisu59&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/liweisu59/snake.git&quot;,
+    &quot;accountId&quot;: &quot;c6d20a4a-d5d1-4dea-86e7-e25b1e909ee4&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2x74E3eppFsOvRt8Ln6i3dqkh9N" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.snake.html.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.snake.js.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/liwei/WebstormProjects/snake&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;wsl://Ubuntu@/usr/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="629fb605-3c12-451a-9319-ae4d42cc11b4" name="Changes" comment="" />
+      <created>1747275663067</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747275663067</updated>
+      <workItem from="1747275664141" duration="1066000" />
+      <workItem from="1747291259388" duration="17123000" />
+      <workItem from="1747362856308" duration="138000" />
+      <workItem from="1747363007152" duration="31000" />
+      <workItem from="1747363039669" duration="86000" />
+      <workItem from="1747364675123" duration="679000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add game loop and refactor canvas and snake logic&#10;&#10;Introduced a `main` game loop for continuous updates and refactored canvas initialization and snake movement functions for better modularity. Removed redundant canvas setup logic and encapsulated it into reusable functions. These changes improve code readability and maintainability.">
+      <option name="closed" value="true" />
+      <created>1747293335346</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747293335346</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add game logic to implement Snake functionality&#10;&#10;Introduced core game mechanics including snake movement, food generation, scoring, and collision detection. Refactored code for clarity, added constants for configuration, and set up event listeners for user input handling.">
+      <option name="closed" value="true" />
+      <created>1747303329519</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747303329519</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add README.md with project description and tutorial link&#10;&#10;This README file provides an overview of the Snake web game. It includes a link to the tutorial used for building the game, offering context and guidance for future reference.">
+      <option name="closed" value="true" />
+      <created>1747303955243</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747303955243</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add score display to snake game UI&#10;&#10;Introduced a score heading and placeholder to the game interface. This sets up the foundation for displaying and updating the player's score dynamically in future updates.">
+      <option name="closed" value="true" />
+      <created>1747359496279</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747359496279</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add game loop and refactor canvas and snake logic&#10;&#10;Introduced a `main` game loop for continuous updates and refactored canvas initialization and snake movement functions for better modularity. Removed redundant canvas setup logic and encapsulated it into reusable functions. These changes improve code readability and maintainability." />
+    <MESSAGE value="Add game logic to implement Snake functionality&#10;&#10;Introduced core game mechanics including snake movement, food generation, scoring, and collision detection. Refactored code for clarity, added constants for configuration, and set up event listeners for user input handling." />
+    <MESSAGE value="Add README.md with project description and tutorial link&#10;&#10;This README file provides an overview of the Snake web game. It includes a link to the tutorial used for building the game, offering context and guidance for future reference." />
+    <MESSAGE value="Add score display to snake game UI&#10;&#10;Introduced a score heading and placeholder to the game interface. This sets up the foundation for displaying and updating the player's score dynamically in future updates." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add score display to snake game UI&#10;&#10;Introduced a score heading and placeholder to the game interface. This sets up the foundation for displaying and updating the player's score dynamically in future updates." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/snake.js</url>
+          <line>37</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
