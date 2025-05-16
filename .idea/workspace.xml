@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="629fb605-3c12-451a-9319-ae4d42cc11b4" name="Changes" comment="Add score display to snake game UI&#10;&#10;Introduced a score heading and placeholder to the game interface. This sets up the foundation for displaying and updating the player's score dynamically in future updates.">
-      <change afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/snake.iml" beforeDir="false" />
+    <list default="true" id="629fb605-3c12-451a-9319-ae4d42cc11b4" name="Changes" comment="Remove IDEA project files and add manifest for Snake extension&#10;&#10;Deleted IntelliJ IDEA's project-specific configuration files to exclude unnecessary metadata from version control. Added a `manifest.json` file to define the basic structure and metadata for the Snake browser extension. This improves project organization and prepares it for extension deployment.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,29 +41,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.snake.html.executor&quot;: &quot;Debug&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.snake.js.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/liwei/WebstormProjects/snake&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;wsl://Ubuntu@/usr/bin/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.snake.html.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.index.js.executor": "Run",
+    "Node.js.snake.js.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/liwei/WebstormProjects/snake",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "wsl://Ubuntu@/usr/bin/node",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -87,7 +83,7 @@
       <workItem from="1747362856308" duration="138000" />
       <workItem from="1747363007152" duration="31000" />
       <workItem from="1747363039669" duration="86000" />
-      <workItem from="1747364675123" duration="679000" />
+      <workItem from="1747364675123" duration="1796000" />
     </task>
     <task id="LOCAL-00001" summary="Add game loop and refactor canvas and snake logic&#10;&#10;Introduced a `main` game loop for continuous updates and refactored canvas initialization and snake movement functions for better modularity. Removed redundant canvas setup logic and encapsulated it into reusable functions. These changes improve code readability and maintainability.">
       <option name="closed" value="true" />
@@ -121,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747359496279</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Remove IDEA project files and add manifest for Snake extension&#10;&#10;Deleted IntelliJ IDEA's project-specific configuration files to exclude unnecessary metadata from version control. Added a `manifest.json` file to define the basic structure and metadata for the Snake browser extension. This improves project organization and prepares it for extension deployment.">
+      <option name="closed" value="true" />
+      <created>1747366032032</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747366032032</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +147,8 @@
     <MESSAGE value="Add game logic to implement Snake functionality&#10;&#10;Introduced core game mechanics including snake movement, food generation, scoring, and collision detection. Refactored code for clarity, added constants for configuration, and set up event listeners for user input handling." />
     <MESSAGE value="Add README.md with project description and tutorial link&#10;&#10;This README file provides an overview of the Snake web game. It includes a link to the tutorial used for building the game, offering context and guidance for future reference." />
     <MESSAGE value="Add score display to snake game UI&#10;&#10;Introduced a score heading and placeholder to the game interface. This sets up the foundation for displaying and updating the player's score dynamically in future updates." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add score display to snake game UI&#10;&#10;Introduced a score heading and placeholder to the game interface. This sets up the foundation for displaying and updating the player's score dynamically in future updates." />
+    <MESSAGE value="Remove IDEA project files and add manifest for Snake extension&#10;&#10;Deleted IntelliJ IDEA's project-specific configuration files to exclude unnecessary metadata from version control. Added a `manifest.json` file to define the basic structure and metadata for the Snake browser extension. This improves project organization and prepares it for extension deployment." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove IDEA project files and add manifest for Snake extension&#10;&#10;Deleted IntelliJ IDEA's project-specific configuration files to exclude unnecessary metadata from version control. Added a `manifest.json` file to define the basic structure and metadata for the Snake browser extension. This improves project organization and prepares it for extension deployment." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
